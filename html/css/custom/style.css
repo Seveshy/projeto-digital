@@ -178,7 +178,14 @@ h6 {
     background-color: #151515;
 }
 .copyright-2-bg {
-	background-color: #f8fdff;
+	background-color: #333333;
+}
+.copy-email {
+    color: #7c7c7c;
+}
+.copy-email:hover{
+    color: white;
+    transition: 0.9s;
 }
 .heading-div-1 {
     padding-bottom: 40px;
@@ -336,16 +343,16 @@ h6 {
     text-transform: uppercase;
 }
 .btn.btn-1 {
-    background-color: #2aa9b9;
+    background-color: rgb(243, 147, 35);
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 .btn.btn-1:focus,
 .btn.btn-1:hover {
-    color: #2aa9b9;
+    color: #000;
     background-color: transparent;
-    border-color: #2aa9b9;
+    border-color: #000;
 }
 .btn.btn-2 {
     background-color: #ffffff;
@@ -1740,7 +1747,7 @@ div.top-ribbon-1:after {
 	color: #333333;
 }
 .social-icon-1 li:hover {
-    background-color: #2aa9b9;
+    background-color: rgb(243, 147, 35);
     color: #ffffff;
 }
 .social-icon-1 li:hover  a{
