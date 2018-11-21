@@ -178,7 +178,14 @@ h6 {
     background-color: #151515;
 }
 .copyright-2-bg {
-	background-color: #f8fdff;
+	background-color: #333333;
+}
+.copy-email {
+    color: #7c7c7c;
+}
+.copy-email:hover{
+    color: white;
+    transition: 0.9s;
 }
 .heading-div-1 {
     padding-bottom: 40px;
@@ -260,7 +267,7 @@ h6 {
 	z-index: 99999;
 }
 #top-nav.navbar-default {
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3) !important; 
+	box-shadow: 5px 5px 25px rgba(46,61,73,.2) !important; 
 }
 .navbar-nav > li > a {
     color: #333333 !important;
@@ -336,16 +343,16 @@ h6 {
     text-transform: uppercase;
 }
 .btn.btn-1 {
-    background-color: #2aa9b9;
+    background-color: rgb(243, 147, 35);
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 .btn.btn-1:focus,
 .btn.btn-1:hover {
-    color: #2aa9b9;
+    color: #000;
     background-color: transparent;
-    border-color: #2aa9b9;
+    border-color: #000;
 }
 .btn.btn-2 {
     background-color: #ffffff;
@@ -1740,7 +1747,7 @@ div.top-ribbon-1:after {
 	color: #333333;
 }
 .social-icon-1 li:hover {
-    background-color: #2aa9b9;
+    background-color: rgb(243, 147, 35);
     color: #ffffff;
 }
 .social-icon-1 li:hover  a{
@@ -1811,6 +1818,7 @@ div.top-ribbon-1:after {
 .subscribe1-section {
     background-color:rgba(242,242,242,0.7);
     padding: 40px 30px 40px 30px;
+    box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
 }
 .subscribe1-section .btn {
     width: 100%;
